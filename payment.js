@@ -21,8 +21,8 @@ const port = 3000;
 app.get('/', (req, res) => res.send("Hello World!"));
 
 let rzp = new Razorpay({
-    key_id: "rzp_test_GgU4QiDlqPGIRQ", // Example Key ID; replace with your actual Razorpay Key ID
-    key_secret: "ALsvrRRgkERC0KeBWadWCOll" // Example Key Secret; replace with your actual Razorpay Key Secret
+    key_id: "", // Example Key ID; replace with your actual Razorpay Key ID
+    key_secret: "" // Example Key Secret; replace with your actual Razorpay Key Secret
 });
 
 app.post('/create-order', (req, res) => {
